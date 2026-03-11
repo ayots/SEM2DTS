@@ -1,23 +1,11 @@
 """
 =============================================================================
-Heart Disease Prediction Pipeline
+Heart Disease Prediction Predictor
 =============================================================================
-Author  : Heart Disease ML Analysis
+Author  : Heart Disease DS Analysis
 Version : 1.0.0
 Dataset : UCI Heart Disease (920 records, 4 clinical centres)
 
-Description:
-    End-to-end modular pipeline for heart disease prediction covering:
-      - Data ingestion and validation
-      - Preprocessing and feature engineering
-      - Supervised learning (Random Forest, Gradient Boosting, XGBoost)
-      - Unsupervised clustering (K-Means, DBSCAN)
-      - Evaluation, visualisation, and reporting
-
-Usage:
-    python heart_disease_pipeline.py
-    python heart_disease_pipeline.py --input heart_disease_uci.csv
-    python heart_disease_pipeline.py --input data.csv --output_dir results --test_size 0.25
 
 Dependencies:
     pip install pandas numpy matplotlib seaborn scikit-learn xgboost
